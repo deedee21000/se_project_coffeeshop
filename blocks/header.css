@@ -5,9 +5,12 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  background-position: center;
   height: 800px;
   display: flex;
   flex-direction: column;
+  z-index: 1;
+  box-sizing: border-box
 }
 
 .header__title {
@@ -41,6 +44,7 @@
   right: 5px;
   width: 646px;
   height: 568px;
+  z-index: 1;
 }
 
 .header__footer {
@@ -59,5 +63,6 @@
   font-family: "Inter";
   font-size: 16px;
   line-height: 20px;
-  color: #6f6f6f
+  color: #6f6f6f;
+  font-weight: 500
 }
